@@ -20,9 +20,6 @@ public class Main {
         // MBs usados com o Garbage Collector
         System.out.println("Contatos removidos da memória");
         ObterMemoriaUsada();
-
-
-
     }
 
 }
