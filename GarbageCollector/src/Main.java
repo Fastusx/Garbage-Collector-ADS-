@@ -5,7 +5,7 @@ public class Main {
         System.out.println((runtime.totalMemory() - runtime.freeMemory())/ MB); //memória utilizada pela aplicação (Em Megas)
     }
     public static void main(String[] args) {
-    Contatos[] contatos = new Contatos[10000000]; // Criação de n espaços "Contato"
+    Contatos[] contatos = new Contatos[1000]; // Criação de n espaços "Contato"
     Contatos contato; 
 //Cada espaço em contatos, agora vai receber seus respéctivos valores
     for (int i=0; i< contatos.length; i++){
