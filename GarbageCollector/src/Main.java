@@ -16,10 +16,11 @@ public class Main {
         System.out.println("Contatos criados");
         ObterMemoriaUsada();
         
-        contatos = null; //atribúi null á todas as instâncias contato
+        contatos = null; //atribui null á todas as instâncias em "contatos"
 
         
         Runtime.getRuntime().gc(); // ativação do Garbage Collector
+        
         // MBs usados com o Garbage Collector
         System.out.println("Contatos removidos da memória");
         ObterMemoriaUsada();
